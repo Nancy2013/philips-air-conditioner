@@ -1,0 +1,11 @@
+{
+  "default_lang": "zh-cn",
+  "id": 6,
+  "pid": ["00000000000000000000000090690000"],
+  "suid": ["4.1.1"],
+  "version": 1,
+  "titleBar": {
+    "visibility": false
+  },
+  "h5_version": "3.0.0"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73px" height="73px" viewBox="0 0 73 73" version="1.1">
+  <title>开关-关</title>
+  <defs>
+    <path d="M36.5,3 C19.66,3 6,16.66 6,33.5 C6,50.34 19.66,64 36.5,64 C53.34,64 67,50.34 67,33.5 C67,16.66 53.34,3 36.5,3 Z" id="path-1"></path>
+    <filter x="-17.2%" y="-12.3%" width="134.4%" height="134.4%" filterUnits="objectBoundingBox" id="filter-2">
+      <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="61" height="61" fill="white">
+      <use xlink:href="#path-1"></use>
+    </mask>
+  </defs>
+  <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="操控页--关闭" transform="translate(-276.000000, -96.000000)">
+      <g id="开关-关" transform="translate(276.000000, 96.000000)">
+        <g id="路径" stroke-dasharray="0,0">
+          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+          <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="1" fill="#189383" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="组-42" transform="translate(24.525696, 20.530251)">
+          <rect id="路径" x="0" y="0" width="24.5327148" height="25.7771606"></rect>
+          <path d="M24.53,13.4432712 C24.53,9.38327123 22.56,5.76327123 19.53,3.52327123 C18.26,2.73327123 16.77,4.49327123 17.99,5.65327123 C20.37,7.42327123 21.91,10.2432712 21.91,13.4432712 C21.91,18.8032712 17.59,23.1332712 12.27,23.1432712 C6.94,23.1432712 2.62,18.8032712 2.62,13.4432712 C2.62,10.2532712 4.17,7.41327123 6.55,5.65327123 C7.76,4.49327123 6.29,2.72327123 5.02,3.52327123 C1.97,5.76327123 0,9.37327123 0,13.4432712 C0,20.2532712 5.5,25.7732712 12.27,25.7732712 C19.05,25.7732712 24.53,20.2432712 24.53,13.4432712 Z" id="路径" fill="#FFFFFF"></path>
+          <path d="M12.9245386,14.66 C13.2745386,14.66 13.5645386,14.22 13.5645386,13.69 L13.5645386,0.96 C13.5645386,0.43 13.2745386,0 12.9245386,0 L11.6145386,0 C11.2545386,0 10.9645386,0.42 10.9645386,0.95 L10.9645386,13.69 C10.9645386,14.22 11.2645386,14.66 11.6145386,14.66 L12.9245386,14.66 Z" id="路径" fill="#FFFFFF"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

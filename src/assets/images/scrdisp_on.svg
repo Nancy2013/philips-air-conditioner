@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56px" height="57px" viewBox="0 0 56 57" version="1.1">
+  <title>显屏</title>
+  <defs>
+    <path d="M28,4 C15.85,4 6,13.85 6,26 C6,38.15 15.85,48 28,48 C40.15,48 50,38.15 50,26 C50,13.85 40.15,4 28,4 Z" id="path-1"></path>
+    <filter x="-23.9%" y="-17.0%" width="147.7%" height="147.7%" filterUnits="objectBoundingBox" id="filter-2">
+      <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+    <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="44" fill="white">
+      <use xlink:href="#path-1"></use>
+    </mask>
+  </defs>
+  <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="操控页---制热---低风" transform="translate(-202.000000, -684.000000)">
+      <g id="显屏" transform="translate(202.000000, 684.000000)">
+        <g id="路径" stroke-dasharray="0,0">
+          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+          <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="1" fill="#14726C" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <path d="M28.22,16 C33.87,16 38.44,20.54 38.44,26.16 C38.44,31.79 33.87,36.33 28.22,36.33 C25.69,36.33 23.41,35.49 21.73,34.06 C21.61,33.94 21.49,33.82 21.37,33.7 C20.89,33.34 20.52,32.98 20.16,32.5 C19.92,32.26 19.8,32.02 19.56,31.67 C19.32,31.31 19.2,30.95 18.96,30.59 C18.6,29.99 18.36,29.27 18.24,28.56 C18.24,28.32 18.12,28.2 18.12,27.96 C18,27.48 18,26.88 18,26.16 L18.0003499,25.9576385 C18.002449,25.5504082 18.0171429,25.1242857 18.12,24.61 C18.12,24.37 18.12,24.13 18.24,23.89 L18.24,23.89 L18.24,23.65 C18.36,23.53 18.36,23.29 18.48,23.18 L18.48,23.18 L18.48,22.94 C19.92,18.99 23.65,16 28.22,16 Z M28.2194214,17.9135742 L28.2194214,34.5335742 C30.3794214,34.5335742 32.5494214,33.6935742 34.1094214,32.1435742 C35.6694214,30.5935742 36.5194214,28.4335742 36.5194214,26.1635742 C36.5194214,24.0135742 35.6694214,21.8635742 34.1094214,20.3035742 C32.5494214,18.7535742 30.3794214,17.9135742 28.2194214,17.9135742 Z" fill="#FFFFFF"></path>
+      </g>
+    </g>
+  </g>
+</svg>

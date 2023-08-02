@@ -1,0 +1,148 @@
+/*
+ * @Description: 通过变量全局修改vant样式
+ * @Author: your name
+ * @LastEditors: Please set LastEditors
+ * @Date: 2019-05-07 11:44:33
+ * @LastEditTime: 2022-03-24 14:35:31 */
+@import '~vant/lib/index.less';
+@button-primary-background-color: @theme-color;
+
+// grid
+@grid-item-content-background-color: @bl-green-2;
+@grid-item-content-padding: 0 0 40px 0;
+
+// slider
+@slider-bar-height: 34px;
+@slider-button-width: 60px;
+@slider-button-height: 60px;
+@slider-active-background-color: none;
+
+.info {
+  .van-slider {
+    background: linear-gradient(
+      to right,
+      #1f80aa 0%,
+      #45a893 44%,
+      #73d878 61%,
+      #e6e325 72%,
+      #e48d23 100%
+    );
+  }
+}
+
+// button
+@button-normal-font-size: 42px;
+@button-default-height: 96px;
+@button-primary-border-color: none;
+.van-button--normal {
+  width: 370px;
+}
+@button-default-font-size: 42px;
+@button-large-font-size: 42px;
+@button-large-height: 96px;
+.van-button--large {
+  width: 100%;
+}
+.fixedBottom {
+  .van-button:active:before {
+    opacity: 0;
+  }
+}
+
+// dialog
+@dialog-header-padding-top: 40px;
+@dialog-width: 610px;
+@dialog-font-size: 36px;
+@dialog-confirm-button-text-color: @bl-red-1;
+@dialog-button-height: 98px;
+@dialog-message-padding: 40px;
+.timerAdd {
+  .van-dialog__content {
+    padding: 40px 35px;
+  }
+}
+.confirm-modal {
+  .van-dialog__message {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+}
+.van-dialog {
+  z-index: 9999 !important ;
+}
+.modal-overlay {
+  z-index: 9999 !important;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+// picker
+@picker-option-font-size: 78px;
+@picker-option-text-color: @bl-green-7;
+
+.timerAdd {
+  .van-picker-column__item--selected {
+    font-size: 124px;
+  }
+}
+@picker-option-disabled-opacity: 0.2;
+
+.timerAdd {
+  .van-hairline--top-bottom:after,
+  .van-hairline-unset--top-bottom:after {
+    border: none;
+  }
+}
+.sleepAdd {
+  .van-picker-column__item {
+    color: @bl-gray-8;
+  }
+  .van-picker-column__item--selected {
+    color: @bl-black;
+  }
+
+  .time {
+    .van-picker-column__item {
+      font-size: 30px;
+    }
+    .van-picker-column__item--selected {
+      font-size: 46px;
+    }
+    .van-hairline--top-bottom:after,
+    .van-hairline-unset--top-bottom:after {
+      border: none;
+    }
+  }
+  .popup {
+    .van-picker-column__item {
+      font-size: 40px;
+      line-height: 70px;
+    }
+    .van-picker-column__item--selected {
+      font-size: 46px;
+    }
+    .van-hairline--top-bottom:after,
+    .van-hairline-unset--top-bottom:after {
+      border-color: @bl-gray-5;
+    }
+    .overlay {
+      z-index: 9999 !important;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .van-popup {
+      z-index: 9999 !important;
+    }
+  }
+}
+
+// SwipeCell
+.van-swipe-cell__wrapper {
+  // Android translate3d 黑线
+  border-bottom: 1px solid transparent;
+}
+
+// toast
+.van-toast.van-toast--loading {
+  background: none;
+}
+@toast-loading-icon-color: @bl-gray-4;
+@overlay-background-color: rgba(0, 0, 0, 0);
